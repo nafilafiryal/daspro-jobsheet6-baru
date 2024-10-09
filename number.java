@@ -12,6 +12,7 @@ public class number {
         num3 = input.nextInt();
 
         max=num1;
+        System.out.println("Max number is = " + num1);
         if (num2>max) {
             System.out.print("Max number is = " + num2);
         } if (num3>max) {
