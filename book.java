@@ -25,6 +25,8 @@ public class book {
                     discount2Dictionary = 2;
                     System.out.println("Get discount + 2%");
                     System.out.print("Get discount = " + discount1Dictionary + "%  + " + discount2Dictionary + "%");
+                } else {
+                    System.out.println("Get discount 10%");
                 }
             } else if (bookCategory.equalsIgnoreCase("novel")) {
                 discount1Novel = 7;
