@@ -51,6 +51,8 @@ public class book {
                 } else {
                     System.out.println("No discount");
                 }
+            } else {
+                System.out.println("Invalid Book Category");
             }
         } else{
             System.out.print("No discount");
